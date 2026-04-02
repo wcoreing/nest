@@ -1,0 +1,22 @@
+{
+  "name": "nest",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "agent:install": "npm --prefix aiagent install",
+    "agent:start": "npm --prefix aiagent start"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.36",
+    "@langchain/langgraph": "^1.2.6",
+    "element-plus": "^2.11.4",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.0"
+  }
+}
